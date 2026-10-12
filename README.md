@@ -64,22 +64,28 @@ with a localized rearrangement visible in VMD (Fig. 4).
 difference (Fig. 5), and the ligand is still in the pocket at the end of both runs (Fig. 6).
 
 ![Mutation identification](figures/fig1_mutation_alignment.png)
+
 *Fig. 1 — Wild-type and mutant BRD4 superimposed in PyMOL; sequence strip shows Trp81→Ala and
 Phe83→Ala.*
 
 ![Minimization](figures/fig2_rmsd_minimization.png)
+
 *Fig. 2 — RMSD during minimization (mutant).*
 
 ![Protein RMSD](figures/fig3_rmsd_apo_holo_mutant.png)
+
 *Fig. 3 — Backbone RMSD of apo (blue), holo (red) and mutant (gray).*
 
 ![Conformational change](figures/fig4_conformational_change.PNG)
+
 *Fig. 4 — Mutant at two frames; the arrow marks the rearranged region.*
 
 ![Ligand RMSD](figures/fig5_ligand_rmsd.png)
+
 *Fig. 5 — LSH24 (`HETB`) RMSD, holo (red) vs mutant (gray).*
 
 ![Ligand position](figures/fig6_holo_mut_visualisation.PNG)
+
 *Fig. 6 — Holo and mutant overlaid, beginning vs end of the trajectory.*
 
 ## Interpretation and limitations
