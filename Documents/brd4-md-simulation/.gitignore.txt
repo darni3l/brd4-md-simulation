@@ -1,0 +1,7 @@
+*.dcd
+*.coor
+*.vel
+*.xsc
+*.xst
+*.BAK
+*.cif
