@@ -73,13 +73,13 @@ Phe83→Ala.*
 ![Protein RMSD](figures/fig3_rmsd_apo_holo_mutant.png)
 *Fig. 3 — Backbone RMSD of apo (blue), holo (red) and mutant (gray).*
 
-![Conformational change](figures/fig4_conformational_change.png)
+![Conformational change](figures/fig4_conformational_change.PNG)
 *Fig. 4 — Mutant at two frames; the arrow marks the rearranged region.*
 
 ![Ligand RMSD](figures/fig5_ligand_rmsd.png)
 *Fig. 5 — LSH24 (`HETB`) RMSD, holo (red) vs mutant (gray).*
 
-![Ligand position](figures/fig6_ligand_position.png)
+![Ligand position](figures/fig6_holo_mut_visualisation.PNG)
 *Fig. 6 — Holo and mutant overlaid, beginning vs end of the trajectory.*
 
 ## Interpretation and limitations
@@ -114,9 +114,9 @@ Phe83→Ala.*
 ├── .gitignore
 ├── report/        # BRD4_MD_report.pdf
 ├── figures/       # fig1 … fig6 (PNG)
-├── analysis/      # fig1_mutation.pml, mutant_model_W81A_F83A.pdb
+├── analysis/      # fig1_mutation.pml, mutant_detection.pml, mutant_generation.pml, mutant_model_W81A_F83A.pdb, ...
 └── setup/
-    ├── apo/       # step1_pdbreader.psf / .pdb / .inp
+    ├── apo/       # step1_pdbreader.psf / .pdb / .inp/.namd
     ├── holo/      # step1_pdbreader.psf / .pdb / .inp / .namd
     └── ligand/    # s7t.rtf, s7t.prm (CGenFF)
 ```
