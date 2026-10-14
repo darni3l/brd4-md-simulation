@@ -106,7 +106,7 @@ Phe83→Ala.*
 |---|---|
 | Report (PDF) and Figures 1–6 | included |
 | CHARMM-GUI topologies for apo and holo, LSH24 parameters | included (author's builds, February 2026) |
-| NAMD configuration, holo | included — author's own re-run, which used a 1,000-step minimization; the runs behind the figures used 10,000 |
+| NAMD configuration, apo and holo | included — author's own re-run, which used a 1,000-step minimization; the runs behind the figures used 10,000 |
 | Runs behind the figures (NAMD configs, logs, trajectories) | not available |
 | Mutant simulation files | not included (provided by the instructors) |
 | RMSD scripts | not available (analysis done interactively in VMD) |
@@ -120,7 +120,7 @@ Phe83→Ala.*
 ├── .gitignore
 ├── report/        # BRD4_MD_report.pdf
 ├── figures/       # fig1 … fig6 (PNG)
-├── analysis/      # fig1_mutation.pml, mutant_detection.pml, mutant_generation.pml, mutant_model_W81A_F83A.pdb, ...
+├── analysis/      # fig1_mutation.pse, mutant_detection.pml, mutant_generation.pml, mutant_model_W81A_F83A.pdb, ...
 └── setup/
     ├── apo/       # step1_pdbreader.psf / .pdb / .inp/.namd
     ├── holo/      # step1_pdbreader.psf / .pdb / .inp / .namd
